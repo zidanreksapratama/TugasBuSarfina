@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #000000;
+            animation: fadeInRight ease 2s
+        }
+        
+        @keyframes fadeInRight {
+            from {
+                transform: translateX(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            animation: fadeInDown 1s;
+        }
+        @keyframes fadeInDown {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            flex: 1;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.981);
+            border-radius: 10px;
+            animation: slideInLeft 1s;
+        }
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        article {
+            margin-top: 20px;
+            animation: fadeInUp 1s;
+        }
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        aside {
+            float: right;
+            width: 30%;
+            margin-top: 20px;
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 10px;
+            border:2px solid #0d0909;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.981);
+            animation: fadeInRight 1s;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+            animation: fadeInUp 1s;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15%;
+            outline: 2px solid #333;
+        }
+        article img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 10px;
+            outline: 2px solid #333;
+            display: block;
+            margin: 0 auto
+        }
+        h1 {
+            color: #fff;
+        }
+        h2, h3 {
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            margin-left: 70px;
+        }
+
+        .about-info h3 {
+            margin: 10px 0;
+            color: #a72424;
+        }
+
+        a {
+            color: rgb(68, 0, 255);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            aside {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PORTOFOLIO</h1>
+    </header>
+
+    <nav>
+        <a href="#tentang-saya">Tentang Saya</a> |
+        <a href="#data-diri">Data Diri</a> |
+        <a href="#riwayat">Riwayat Pendidikan</a> |
+        <a href="#portofolio">Portofolio</a> |
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section id="tentang-saya" style="background-color:black" >
+        <div style="text-align: center;">
+            <img src="zidan.png" alt="Foto ZIDAN">
+        </div>
+        <div class="about-info">
+            <h2 style="color: #f4f4f4;">ZIDAN REKSA PRATAMA</h2>
+            <h3 style="color: #f4f4f4;">Mahasiswa D4 Teknik Informatika Politeknik Harapan Bersama dan Bekerja di Salah Satu Restoran di Kota Tegal</h3>
+        </div>
+    </section>
+    <aside id="kontak">
+        <h2>Contact Me</h2>
+        <p>Jika Anda tertarik bekerja sama atau memiliki pertanyaan, silakan hubungi saya:</p>
+        <ul>
+            <li><img src="email.png" alt="Email Logo" style="width: 20px; height: 20px;"> Email: zidanreksa789@gmail.com</li>
+            <li><img src="wa.png" alt="WhatsApp Logo" style="width: 20px; height: 20px;"> WhatsApp: +6285865035546</li>
+            <li><img src="ig.png" alt="Instagram Logo" style="width: 20px; height: 20px;"> instagram: <a href="https://instagram.com/danz.rp28?igshid=OGQ5ZDc2ODk2ZA==">danz.rp28</a></li>
+            <li><img src="fb.png" alt="Facebook Logo" style="width: 20px; height: 20px;"> Facebook: <a href="https://www.facebook.com/profile.php?id=100038561022191&mibextid=ZbWKwL">Zidan Reksa Pratama</a></li>
+                
+    </aside>
+
+    <section style="margin-left: 20px;" id="data-diri">
+        <h2>Data Diri</h2>
+        <ul>
+            <li><strong> lahir: </strong> 28 September 2004</li>
+            <li><strong> Tempat Lahir: </strong>  Tegal</li>
+            <li><strong> Agama: </strong> Islam</li>
+            <li><strong> Kebangsaan:</strong> Indonesia</li>
+            <li><strong> Jenis Kelamin:</strong>  Laki-laki</li>
+            <li><strong> Status::</strong> Belum Menikah</li>
+        </ul>
+    </section>
+
+    <section style="margin-left: 20px;" id="riwayat">
+        <h2>Riwayat Pendidikan</h2>
+        <ul>
+            <li>
+                <p><strong> # </strong> Lulus SMK Negeri 1 Adiwerna (Sekolah Menengah Kejuruan) Tahun 2022</p>
+                <p><strong> # </strong> Lulus SMP Negeri 3 Adiwerna (Sekolah Menengah Pertama) Tahun 2019</p>
+                <p><strong> # </strong> Lulus SD Negeri 1 Tembok Lor (Sekolah Dasar) Tahun 2016</p>
+            </li>
+        </ul>
+    </section>
+    
+    <section style="margin-left: 20px;" id="pengalaman">
+        <h2>Resume pengalaman</h2>
+        <ul>
+            <li><strong>#</strong>Operator Produksi-<strong> CV MATACHACINDO</strong> </li>
+            <li><strong>#</strong>Kitchen Helper-<strong> Katsukai Resto</strong> </li>
+        </ul>
+    </section>
+
+    <article id="portofolio">
+        <h2>Portofolio</h2>
+        <div>
+            <h3>Proyek 1: Aplikasi Absensi Karyawan</h3>
+            <p>Deskripsi: Merancang dan mengembangkan aplikasi Absensi Karyawan untuk mempermudah absensi harian.</p>
+            <img style="max-width: 70%;" src="absen.png" alt="Proyek 1 Screenshot" style="max-width: 100%; border-radius: 10px;">
+        </div>
+    
+        <div>
+            <h3>Proyek 2: Website Static Pendidikan Di Indonesia</h3>
+            <p>Deskripsi: Membangun Media pembelajaran mengenai pentingnya pendidikan dan kemajuan pendidikan di Indonesia</p>
+            <img style="max-width: 70%;" src="web.png" alt="Proyek 2 Screenshot" style="max-width: 100%; border-radius: 10px;">
+        </div>
+    
+    </article>
+
+    <footer>
+        &copy; 2023 ZIDAN REKSA PRATAMA. All rights reserved.
+    </footer>
+
+</body>
+</html>
